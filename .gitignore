@@ -1,0 +1,30 @@
+
+# Java compiled files
+*.class
+
+# Maven generated files
+target/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Mac files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Local database backups
+*.sql
+*.dump
+
+# Temporary files
+*.tmp
